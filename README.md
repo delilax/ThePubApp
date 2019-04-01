@@ -1,2 +1,1 @@
-# ThePubApp
-React.js project
+The Pub App demo project
