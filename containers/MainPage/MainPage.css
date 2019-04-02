@@ -1,0 +1,33 @@
+.Cover{
+    /* background-color:rgba(250,0,0,0.5); */
+    /* margin-top:57px; */
+    /* overflow: hidden; */
+}
+
+.Event{
+    margin-top:-30px;
+    /* background-color: rgba(0,250,0,0.5); */
+    overflow: hidden;
+}
+
+.aboutUs{
+    /* background-color: rgba(0,0,250,0.5); */
+    /* margin-top:8%; */
+    overflow: hidden;
+}
+
+.map{
+    /* background-color: rgba(200,200,0,0.5); */
+    overflow: hidden;
+ 
+}
+
+.Reservation{
+    /* background-color: rgb(235, 252, 142); */
+    overflow: hidden;
+}
+
+.Drinks{
+    /* background-color: red; */
+    overflow: hidden;
+}

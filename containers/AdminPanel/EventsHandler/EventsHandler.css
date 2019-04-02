@@ -1,0 +1,95 @@
+.EventsHandler{
+    width: 100%;
+    display: block;
+    /* background-color: yellow; */
+}
+
+.EventsHandler h1{
+    font-weight: bold;
+    font-family: 'Sail','Times', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.DatePicker{
+    width: 25em;
+    padding: 15px;
+    font-family: 'Montserrat', 'Times',cursive;
+    font-size: 1em;
+    outline:none;
+    background-color:rgb(240, 240, 240);
+    -moz-box-shadow:    inset 3px 3px 15px #000000;
+    -webkit-box-shadow: inset 3px 3px 15px #000000;
+    box-shadow:         inset 3px 3px 15px #000000;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+}
+
+::-webkit-datetime-edit { padding: 0.5em; font-size: 1em;}
+/* ::-webkit-datetime-edit-fields-wrapper {} */
+::-webkit-datetime-edit-text { color: black; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: black; }
+::-webkit-datetime-edit-day-field { color: black; }
+::-webkit-datetime-edit-year-field { color: black; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { width: 20px; }
+
+
+.FilePicker{
+    width: 25em;
+    padding: 15px;
+    margin-top:1em;
+    font-family: 'Montserrat', 'Times',cursive;
+    font-size: 1em;
+    outline:none;
+    background-color:rgb(240, 240, 240);
+    -moz-box-shadow:    inset 3px 3px 15px #000000;
+    -webkit-box-shadow: inset 3px 3px 15px #000000;
+    box-shadow:         inset 3px 3px 15px #000000;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+}
+
+.TitlePicker{
+    width: 25em;
+    padding: 15px;
+    margin-top:1em;
+    font-family: 'Montserrat', 'Times',cursive;
+    font-size: 1em;
+    outline:none;
+    background-color:rgb(240, 240, 240);
+    -moz-box-shadow:    inset 3px 3px 15px #000000;
+    -webkit-box-shadow: inset 3px 3px 15px #000000;
+    box-shadow:         inset 3px 3px 15px #000000;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+}
+
+
+
+.ColorPicker{
+    width: 50px;
+    height: 30px;
+    margin-top:2em;
+    margin-bottom: 2em;
+    background-color:rgb(240, 240, 240);
+    -moz-box-shadow:    1px 1px 5px #000000;
+    -webkit-box-shadow: 1px 1px 5px #000000;
+    box-shadow:         1px 1px 5px #000000;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+}
+
+.ColorPicker:hover{
+    -moz-box-shadow:    inset 1px 1px 5px #000000;
+    -webkit-box-shadow: inset 1px 1px 5px #000000;
+    box-shadow:         inset 1px 1px 5px #000000;
+}
+
+.Button:focus{
+    outline: none;    
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .EventsHandler{
+        width: 50%;
+    }
+    
+} 

@@ -1,0 +1,97 @@
+.Auth{
+}
+
+
+.Auth img{
+    box-shadow: 0px 5px 5px rgb(29, 22, 12);
+}
+
+.Auth h1{
+    font-weight: bold;
+    font-family: 'Sail','Times', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.SingIn{
+    position: relative;
+}
+
+.SingInForm{
+    position: absolute;
+    /* background-color: red; */
+    top:5em;
+    right: 8em;
+}
+
+
+.Register{
+    position: relative;
+}
+
+.RegisterForm{
+    position: absolute;
+    /* background-color: red; */
+    top:6em;
+    left: 8em;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+} 
+
+
+@media only screen and (min-width: 768px) {
+
+} 
+
+
+@media only screen and (min-width: 1000px) {
+
+} 
+
+@media only screen and (min-width: 1200px) {
+    .SingInForm{
+        top:8em;
+        right: 12em;
+    }
+    .RegisterForm{
+        top:8em;
+        left: 12em;
+    }
+} 
+
+@media only screen and (min-width: 1400px) {
+    .SingInForm{
+        top:10em;
+        right: 16em;
+    }
+    .RegisterForm{
+        top:10em;
+        left: 16em;
+    }
+} 
+
+
+@media only screen and (min-width: 1600px) {
+    .SingInForm{
+        top:12em;
+        right: 20em;
+    }
+    .RegisterForm{
+        top:12em;
+        left: 20em;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .SingInForm{
+        top:14em;
+        right: 26em;
+    }
+    .RegisterForm{
+        top:16em;
+        left: 26em;
+    }
+}

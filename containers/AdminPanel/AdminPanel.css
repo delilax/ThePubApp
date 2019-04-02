@@ -1,0 +1,11 @@
+.AdminPanel{
+    width: 100%;
+    display:block;
+}
+
+@media only screen and (min-width: 1000px) {
+    .AdminPanel{
+        display:inline-flex;
+    }
+    
+} 
