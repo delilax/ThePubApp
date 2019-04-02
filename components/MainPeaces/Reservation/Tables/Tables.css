@@ -1,0 +1,66 @@
+.DivGrid{
+    height: 800px;
+    /* background: radial-gradient(rgb(53, 50, 50), #ded4d4); */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 20px rgb(10, 10, 10);
+
+}
+
+
+.Table{
+    cursor: pointer;
+    /* background-color: green; */
+    margin-left: 10%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+} 
+
+
+@media only screen and (min-width: 600px) {
+    .Table{
+        margin-left: 10%;
+    }
+} 
+
+
+@media only screen and (min-width: 768px) {
+} 
+
+
+@media only screen and (min-width: 1000px) {
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .Table{
+        margin-left: 16%;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .Table{
+        margin-left: 19%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .Table{
+        margin-left: 22%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .Table{
+        margin-left: 24%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .Table{
+        margin-left: 27%;
+    }
+}

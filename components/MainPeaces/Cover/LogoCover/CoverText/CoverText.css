@@ -1,0 +1,156 @@
+.MusicalNotes{
+    font-family: 'Sail','Times', cursive;
+    /* text-shadow: 3px 4px 5px rgb(66, 0, 52),4px 5px 1px rgb(153, 0, 64); */
+    text-shadow: 3px 4px 5px rgb(0, 0, 0),-3px -2px 3px rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 1);
+    /* color: rgba(0, 0, 0, 1); */
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -85%;
+
+}
+
+.MusicNotes1{
+    font-size: 5em;
+    margin-left: 0%;
+    margin-top: 0%;
+    opacity: 0;
+    animation: opacityAnimation 2s ease 0s 1 normal forwards;
+}
+
+.MusicNotes2{
+    font-size: 2.5em;
+    margin-left: 110%;
+    margin-top: -9%;
+    opacity: 0;
+    animation: opacityAnimation 1s ease 0.5s 1 normal forwards;
+}
+
+
+.MusicNotes3{
+    font-size: 2.2em;
+    margin-left: 125%;
+    margin-top: -10%;
+    opacity: 0;
+    animation: opacityAnimation 1s ease 0.7s 1 normal forwards;
+}
+
+
+.MusicNotes4{
+    font-size: 6em;
+    margin-left: 50%;
+    margin-top: 0%;
+    opacity: 0;
+    animation: opacityAnimation 2s ease 0.9s 1 normal forwards;
+}
+
+.MusicNotes5{
+    font-size: 5em;
+    margin-left: 130%;
+    margin-top: -25%;
+    opacity: 0;
+    animation: opacityAnimation 2s ease 1.1s 1 normal forwards;
+
+}
+
+@keyframes opacityAnimation {
+    0%   {   opacity:0}
+    100%  {  opacity:1}
+}
+
+@media only screen and (max-width: 600px) {
+
+} 
+
+
+@media only screen and (min-width: 600px) {
+    .MusicalNotes{
+        margin-top: -50px;
+    }
+} 
+
+
+@media only screen and (min-width: 768px) {
+    .MusicalNotes{
+        margin-top: -30px;
+    }
+} 
+
+
+@media only screen and (min-width: 1000px) {
+    .MusicalNotes{
+        margin-top: -100px;
+    }
+
+    .MusicNotes1{
+        font-size: 8em;
+        margin-left: -40%;
+        margin-top: 5%;
+    }
+    
+    .MusicNotes2{
+        font-size: 4em;
+        margin-left: 90%;
+        margin-top: -9%;
+    }
+    
+    .MusicNotes3{
+        font-size: 4em;
+        margin-left: 110%;
+        margin-top: -10%;
+    }
+    
+    
+    .MusicNotes4{
+        font-size: 9em;
+        margin-left: 20%;
+        margin-top: 0%;
+    
+    }
+    
+    .MusicNotes5{
+        font-size: 8em;
+        margin-left: 100%;
+        margin-top: -25%;
+    }
+} 
+
+
+@media only screen and (min-width: 1500px) {
+    .MusicalNotes{
+        margin-top: -40px;
+    }
+
+    .MusicNotes1{
+        font-size: 12em;
+        margin-left: -40%;
+        margin-top: 5%;
+    }
+    
+    .MusicNotes2{
+        font-size: 5em;
+        margin-left: 90%;
+        margin-top: -9%;
+    }
+    
+    .MusicNotes3{
+        font-size: 5em;
+        margin-left: 110%;
+        margin-top: -10%;
+    }
+    
+    
+    .MusicNotes4{
+        font-size: 13em;
+        margin-left: 20%;
+        margin-top: 0%;
+    
+    }
+    
+    .MusicNotes5{
+        font-size: 12em;
+        margin-left: 100%;
+        margin-top: -25%;
+    }
+    
+}

@@ -1,0 +1,64 @@
+.Events{
+    width: 78%;
+    height: auto;
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    /* background-color: red; */
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(36, 20, 0,0.2); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(26, 7, 0, 0.863); 
+  }
+
+@media only screen and (max-width: 600px) {
+    .Events{
+        width: 90%;
+    }
+} 
+
+@media only screen and (min-width: 600px) { 
+    .Events{
+        width: 90%;
+        margin-top:15px;
+    }
+} 
+
+@media only screen and (min-width: 768px) {
+    .Events{
+        width: 90%;
+        margin-top: 0px;
+    }
+} 
+
+@media only screen and (min-width: 1000px) {
+    .Events{
+        width: 90%;
+        margin-top:100px;
+    }
+} 
+
+@media only screen and (min-width: 1500px) {
+    .Events{
+        width: 90%;
+        margin-top:7%;
+    }
+}

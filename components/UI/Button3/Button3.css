@@ -1,0 +1,50 @@
+.Button {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    background-image: linear-gradient(to right, #1d1c1c, #1d1c1c,#1d1c1c, #a70e0e );
+    box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.75);
+
+    font-family: 'Montserrat', 'Times', cursive;
+    font-size: 1em;
+}
+
+.Button:hover{
+    background-position: 100% 0;
+    moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .1s ease-in-out;
+
+    box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.75) inset;
+}
+
+.Button:focus{
+    outline: none;    
+}
+
+.Button:disabled{
+    background-image: linear-gradient(to right, #b1afaf, #a7a4a4);
+    box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.75) inset ;
+    color:#9b9a9a;
+    cursor: not-allowed;
+    background-position: 0 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+

@@ -1,0 +1,27 @@
+.AboutUs{
+    width:100%;
+    
+}
+
+.Title{
+    font-family: 'Sail', cursive;
+    font-size: 2em;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    /* text-shadow: 3px 3px 8px rgb(0,0,0);
+    color: rgb(255,255,255); */
+}
+
+.Text{
+    font-family: 'Montserrat', cursive;
+    font-size: 1.1em;
+    margin-top:1em;
+}
+
+@media only screen and (min-width: 1500px) {
+    .AboutUs{
+        margin-top: 8%;
+    }
+}
+

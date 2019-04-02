@@ -1,0 +1,12 @@
+.Offers{
+    width: 100%;
+    position: relative;
+}
+
+.Drinks{
+    width: 25%;
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+

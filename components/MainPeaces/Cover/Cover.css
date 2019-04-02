@@ -1,0 +1,14 @@
+.Cover{
+    width: 102%;
+    height: 100vh;
+    margin-top:0;
+    margin-left: -1%;
+    position: relative;
+}
+
+.BackgroundImage{
+    margin-top:-3%;
+    filter: sepia(20%) blur(1px);
+    /* filter: brightness(90%); */
+}
+

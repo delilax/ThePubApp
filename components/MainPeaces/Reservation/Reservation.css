@@ -1,0 +1,74 @@
+.ReservationText{
+    width: 90%;
+    /* height: 100px; */
+    /* background-color: green; */
+    font-family: 'Sail', 'Times',cursive;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+    font-size: 2.8em;
+    font-weight: bold;
+    margin: auto;
+    align-content: center;
+    align-self: center;
+}
+
+.Date{
+    margin: 30px;
+    align-content: center;
+    align-self: center;
+
+}
+
+.DatePicker{
+    padding: 5px;
+    font-family: 'Montserrat', 'Times',cursive;
+    font-size: 100%;
+    outline:none;
+    background-color:rgb(240, 240, 240);
+    -moz-box-shadow:    inset 3px 3px 15px #000000;
+    -webkit-box-shadow: inset 3px 3px 15px #000000;
+    box-shadow:         inset 3px 3px 15px #000000;
+    text-shadow: 3px 3px 8px rgb(114, 114, 114);
+}
+
+.Tables{
+    margin-left: 50px;
+}
+
+
+::-webkit-datetime-edit { padding: 0.5em; font-size: 1.5em;}
+::-webkit-datetime-edit-fields-wrapper {}
+::-webkit-datetime-edit-text { color: black; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: black; }
+::-webkit-datetime-edit-day-field { color: black; }
+::-webkit-datetime-edit-year-field { color: black; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { width: 20px; }
+
+
+
+@media only screen and (max-width: 600px) {
+    /* ::-webkit-datetime-edit { font-size: 1.5em;} */
+} 
+
+
+@media only screen and (min-width: 600px) {
+    /* ::-webkit-datetime-edit { font-size: 3em;} */
+} 
+
+
+@media only screen and (min-width: 768px) {
+    .ReservationText{
+        font-size: 2.3em;
+    }
+    /* ::-webkit-datetime-edit { font-size: 2vw;} */
+} 
+
+
+@media only screen and (min-width: 1000px) {
+
+} 
+
+
+@media only screen and (min-width: 1500px) {
+
+}

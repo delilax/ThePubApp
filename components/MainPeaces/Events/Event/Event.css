@@ -1,0 +1,85 @@
+.Event{
+    width: 49%;
+    height: auto;
+    padding: 0px;
+    margin: 5px;
+    display: inline-flex;
+    box-sizing: border-box;
+    top:0;
+    left: 0;
+    transform: translate(0%,0%);
+    box-shadow:0 1px 3px rgba(82, 82, 82, 0.582), 5px 0 20px rgba(0, 0, 0, 0.5) inset;
+}
+
+.Box{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    font-size:20px;
+    box-sizing: border-box;
+    margin:5px;
+    
+}
+
+
+.TitleHeader{
+    font-family: 'Montserrat','Corben','Times', cursive;
+    font-size: 2em;
+    /* letter-spacing: 1vw; */
+    font-weight: bold;
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform: translate(-50%,-5%);
+    box-sizing: border-box;
+}
+
+.DateHeder{
+    font-family: 'Sail','Montserrat','Cinzel Decorative','Times', cursive;
+    font-size: 2em;
+    /* letter-spacing: 0.1em; */
+    font-weight: bold;
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%,-15%);
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+} 
+
+@media only screen and (min-width: 600px) {
+
+} 
+
+@media only screen and (min-width: 768px) {
+
+    .TitleHeader{
+        font-size: 1.5em;
+    }
+
+    .DateHeder{
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .Event{
+        width: 32%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .Event{
+        width: 30%;
+    }
+}

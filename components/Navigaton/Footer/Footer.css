@@ -1,0 +1,15 @@
+.Footer{
+    height: 200px;
+    font-family: 'Montserrat','Times', cursive;
+    background-color:rgb(37, 37, 37);
+    filter: sepia(30%);
+
+    color:rgb(226, 226, 226);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    padding-top: 30px;
+}
+
+.Footer a{
+    display: block;
+}
